@@ -33,6 +33,9 @@ module.exports = {
           providerOrUrl: "https://rpc-devnet-cardano-evm.c1.milkomeda.com",
         }),
       network_id: 200101,
+      networkCheckTimeout: 1000000,
+      timeoutBlocks: 200,
+      skipDryRun: true,
     },
   },
 };

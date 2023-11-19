@@ -1,4 +1,4 @@
-require('dotenv').config():
+require('dotenv').config();
 const privateKey = process.env.PRIVATE_KEY;
 if (privateKey == null || typeof privateKey !== "string") {
   throw new Error("Missing ENV variable PRIVATE_KEY");
@@ -17,7 +17,7 @@ module.exports = {
   },
   contract_config: {
     // TODO: modify these values as specified in the docs
-    owner: "",
+    owner: "0xF8e6A72C0e72E0Eb510bD20097b0522Eae4B24E4",
     fee: 10n ** 14n
   },
   networks: {
@@ -34,6 +34,9 @@ module.exports = {
           providerOrUrl: "https://rpc-devnet-cardano-evm.c1.milkomeda.com",
         }),
       network_id: 200101,
+      networkCheckTimeout: 1000000,
+      timeoutBlocks: 200,
+      skipDryRun: true,
     },
   },
 };

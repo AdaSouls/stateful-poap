@@ -1,4 +1,6 @@
 {
-  "testnet": {},
+  "testnet": {
+    "PaimaL2Contract": "0x032001172C72231ed7a93ee49Fe7f2b0a87683D4"
+  },
   "mainnet": {}
 }

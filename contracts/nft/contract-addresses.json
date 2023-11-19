@@ -1,13 +1,13 @@
 {
   "testnet": {
-    "Nft": "0xbfe77c3604D9386689A5C519675f810Ac3728903",
-    "NativeNftSale": "",
-    "NativeProxy": "",
+    "Nft": "0x3b6D4F0aFf1521bBdd7F1847f73bE44286fB8f45",
+    "NativeNftSale": "0x4BB938Ee40Ee1Bc9E720C7b4Fd14170E8b78Bc12",
+    "NativeProxy": "0x0611A1C2016b6D01d0Ce956ad642365727cA457f",
     "Erc20NftSale": "",
     "Proxy": "",
     "GenericPayment": "",
     "GenericPaymentProxy": "",
-    "NftDeploymentBlockHeight": 12235825
+    "NftDeploymentBlockHeight": 20821856
   },
   "mainnet": {
     "Nft": "",
