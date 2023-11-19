@@ -1,0 +1,56 @@
+{
+  "testnet": {
+    "Nft": {
+      "name": "Web3 Ragnarok",
+      "symbol": "RGNK",
+      "supply": 10000,
+      "owner": "0xF8e6A72C0e72E0Eb510bD20097b0522Eae4B24E4",
+      "minter": "0xF8e6A72C0e72E0Eb510bD20097b0522Eae4B24E4",
+      "baseUri": ""
+    },
+    "NftSale": {
+      "price": 5
+    },
+    "NativeNftSale": {
+      "decimals": 18,
+      "owner": "0xF8e6A72C0e72E0Eb510bD20097b0522Eae4B24E4"
+    },
+    "Erc20NftSale": {
+      "currencies": {
+        "USDT": "",
+        "USDC": ""
+      },
+      "owner": "0xF8e6A72C0e72E0Eb510bD20097b0522Eae4B24E4"
+    },
+    "GenericPayment": {
+      "owner": "0xF8e6A72C0e72E0Eb510bD20097b0522Eae4B24E4"
+    }
+  },
+  "mainnet": {
+    "Nft": {
+      "name": "Test NFT contract",
+      "symbol": "TNC",
+      "supply": 2000,
+      "owner": "",
+      "minter": "",
+      "baseUri": ""
+    },
+    "NftSale": {
+      "price": 3
+    },
+    "NativeNftSale": {
+      "decimals": 18,
+      "owner": ""
+    },
+    "Erc20NftSale": {
+      "currencies": {
+        "USDT": "",
+        "USDC": ""
+      },
+      "owner": ""
+    },
+    "GenericPayment": {
+      "owner": ""
+    }
+  }
+}
